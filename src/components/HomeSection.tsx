@@ -19,7 +19,7 @@ const HomeSection = () => {
         <div className="text-center px-4 md:text-start">
           <p className="text-slate-400 font-bold text-3xl">Hello There👋🏻</p>
           <h1 className="text-5xl font-semibold text-indigo-600 pt-4">
-            I'm Atchyut Nagabhairava
+            I&apos;m Atchyut Nagabhairava
           </h1>
           <h2 className="text-lg font-semibold text-pink-300 mt-2 font-mono">
             Engineer | Innovator | AI Enthusiast
@@ -27,7 +27,7 @@ const HomeSection = () => {
           <p className="text-slate-400 text-lg pt-4">
             Passionate about solving real-world problems with AI and automation.
             <br />
-            My mission is to blend technology with empathy to create affordable solutions.
+            My mission is to blend technology with empathy and create affordable solutions.
           </p>
           {/* <div className="flex justify-center md:justify-start space-x-4 pt-4">
             <img src="/icons/nextjs.svg" alt="Next.js" className="h-8 w-8" />
