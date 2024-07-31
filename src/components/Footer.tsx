@@ -2,108 +2,111 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import footerImg from "@/utils/footerImg";
+
+const socialLinks = [
+  { name: "GitHub", url: "https://github.com/atchyutn", icon: "/github.svg" },
+  {
+    name: "LinkedIn",
+    url: "https://linkedin.com/in/atchyutn",
+    icon: "/linkedin.svg",
+  },
+  { name: "Email", url: "mailto:email@atchyutn.com", icon: "/mail.svg" },
+  {
+    name: "WhatsApp",
+    url: "https://wa.me/918143339495",
+    icon: "/whatsapp.svg",
+  },
+];
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 flex items-center justify-center">
-      <div className="max-w-5xl">
+    <footer className="bg-gradient-to-b from-gray-900 to-black text-white">
+      <div className="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <motion.div
-          transition={{
-            duration: 1,
-          }}
-          initial={{
-            opacity: 0,
-            y: 50,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
         >
-          {/* contact and mail */}
-          <div className="flex sm:flex-row sm:pt-16  flex-col items-center pt-10">
-            <div className="pl-2">
-              <h1 className="text-slate-300 p-4 text-5xl font-bold sm:text-start text-center">
-                Lets get in touch.
-              </h1>
-              <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-                My inbox is always open, Whether you have a question or just
-                want
-                <span className="inline-block">
-                  to say hi. I’ll try my best to get back to you!
-                </span>
-              </p>
-              <div className="flex justify-center sm:justify-start sm:ml-5 pt-5">
-                <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-6 py-2 rounded-full">
-                  <Link href="/contact">
-                    <span>Contact Me</span>
-                  </Link>
-                  <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-                </button>
-              </div>
+          <div>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Let's get in touch.
+            </h2>
+            <p className="text-gray-300 mb-6">
+              My inbox is always open. Whether you have a question or just want
+              to say hi, I'll try my best to get back to you!
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+            >
+              Contact Me
+            </Link>
+          </div>
+          <div className="space-y-4">
+            <div className="flex items-center space-x-3">
+              <Image src="/user.svg" alt="Name" width={24} height={24} />
+              <span>Atchyut Nagabhairava</span>
             </div>
-            <div className="sm:pt-24 sm:mr-10 pt-10">
-              <div className="flex flex-row gap-2 pb-4 ">
-                <span>ganeshbharti097@gmail.com</span>
-
-                <Image
-                  src="./mail.svg"
-                  alt="mail"
-                  width={28}
-                  height={28}
-                ></Image>
-              </div>
-              <div>
-                <Link
-                  href="https://www.google.com/maps/place/Nanded,+Maharashtra/@19.1472597,77.2746554,13z/data=!3m1!4b1!4m6!3m5!1s0x3bd1d66bb9d31721:0x43892c180155daf1!8m2!3d19.1485289!4d77.3191471!16zL20vMDU5bmoz?entry=ttu"
-                  target="_blank"
-                  className="flex flex-row gap-2 "
-                >
-                  <span>Nanded,Maharashtra India.</span>
-                  <Image
-                    src="./map-pin.svg"
-                    alt="linkedin"
-                    width={25}
-                    height={25}
-                  />
-                </Link>
-              </div>
+            <div className="flex items-center space-x-3">
+              <Image src="/phone.svg" alt="Phone" width={24} height={24} />
+              <span>+91 8498894886</span>
+            </div>
+            <div className="flex items-center space-x-3">
+              <Image src="/mail.svg" alt="Email" width={24} height={24} />
+              <a
+                href="mailto:email@atchyutn.com"
+                className="hover:text-blue-400 transition-colors"
+              >
+                email@atchyutn.com
+              </a>
+            </div>
+            <div className="flex items-center space-x-3">
+              <Image
+                src="/whatsapp.svg"
+                alt="WhatsApp"
+                width={24}
+                height={24}
+              />
+              <span>+91 8143339495 (Business)</span>
             </div>
           </div>
         </motion.div>
 
-        {/* social media */}
+        <div className="h-px bg-gray-700 my-8"></div>
 
-        <div className="h-px  bg-gray-500 m-6 "></div>
-        <div className="flex sm:justify-between p-2 pb-10 flex-col-reverse items-center sm:flex-row">
-          <div className="text-slate-400 text-center p-4 text-base">
-            <p>© 2023 All rights reserved.Ganesh</p>
-          </div>
+        <div className="flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-gray-400 text-sm mb-4 sm:mb-0">
+            © {new Date().getFullYear()} Atchyut Nagabhairava. All rights
+            reserved.
+          </p>
           <motion.div
-            transition={{
-              duration: 1,
-            }}
-            initial={{
-              opacity: 1,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex space-x-4"
           >
-            <div className="flex flex-row">
-              {footerImg.map((item, index) => (
-                <Link href={item.link || ""} key={index} target="_blank">
-                  <Image src={item.src} alt={item.alt} width={40} height={40} />
-                </Link>
-              ))}
-            </div>
+            {socialLinks.map((link, index) => (
+              <Link
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={link.icon}
+                  alt={link.name}
+                  width={24}
+                  height={24}
+                  className="hover:opacity-80 transition-opacity"
+                />
+              </Link>
+            ))}
           </motion.div>
         </div>
       </div>
     </footer>
   );
 };
+
 export default Footer;

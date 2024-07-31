@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 import Link from "next/link";
+import { FeaturesSection } from "./ui/features-section";
 
 const AboutSection = () => {
   return (
@@ -15,9 +16,11 @@ const AboutSection = () => {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-black py-8 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-4xl"
+        className="mt-8 bg-black py-2 bg-clip-text text-center text-5xl font-semibold tracking-tight text-transparent md:text-5xl"
       >
-        &apos;Know&apos; me, Before you &apos;No&apos; me
+        Know me,
+        <br />
+        Before you No me
       </motion.h1>
       <motion.p
         initial={{ opacity: 0.5, y: 100 }}
