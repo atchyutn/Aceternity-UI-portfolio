@@ -25,7 +25,7 @@ const HomeSection = () => {
             Engineer | Innovator | AI Enthusiast
           </h2>
           <p className="text-slate-400 text-lg pt-4">
-            Passionate about solving real-world problems with AI and automation.
+            Passionate about solving business problems with Digital solutions and automation.
             <br />
             My mission is to blend technology with empathy and create affordable solutions.
           </p>

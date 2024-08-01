@@ -24,7 +24,7 @@ export default function ContactSection() {
       </div>
       {/* contact form */}
       <div className="sm:flex sm:gap-6">
-        <div className="sm:w-1/2">
+        {/* <div className="sm:w-1/2">
           <form className="my-8" onSubmit={handleSubmit}>
             <LabelInputContainer className="mb-4">
               <Label htmlFor="name">Name</Label>
@@ -60,11 +60,11 @@ export default function ContactSection() {
               <BottomGradient />
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* support and hire  */}
         {/* support */}
-        <div className="sm:w-1/2 sm:pt-8">
+        <div className="sm:full sm:pt-8">
           <div className="pl-2 bg-slate-800 rounded-lg p-4 mb-4">
             <h1 className="text-slate-300 p-4 text-2xl font-bold sm:text-start text-center">
               Support Me.
