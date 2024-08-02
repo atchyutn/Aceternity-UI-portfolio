@@ -11,7 +11,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Atchyut Nagabhairava | Web Development & AI Solutions</title>
+        <title>
+          title: Atchyut Nagabhairava | Web & Mobile Development | AI
+          Enthusiast,
+        </title>
         <meta
           name="description"
           content="Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps. Explore my portfolio of projects in Next.js, DynamoDB, Tailwind CSS, and more."
