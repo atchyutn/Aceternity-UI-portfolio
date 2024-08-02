@@ -24,7 +24,8 @@ const page = () => {
             </p>
 
             <Link
-              href="https://therapy-genius-example.com/"
+              href="https://therapygenius.tech/"
+              target="_blank"
               className="text-indigo-500 hover:text-indigo-700 flex gap-2 pt-3"
             >
               View Project
@@ -48,7 +49,7 @@ const page = () => {
             <div>
               <p className="text-2xl font-bold pt-6">Technologies/Tools:</p>
               <p className="text-slate-400 sm:text-start text-lg text-center pt-4">
-                Next.js, TypeScript, DynamoDB, Cloudflare R2, Tailwind CSS,
+                Next.js, TypeScript, DynamoDB, Cloudflare pages, Tailwind CSS,
                 OpenAI API.
               </p>
             </div>
@@ -123,8 +124,8 @@ const page = () => {
               flexible database management.
             </li>
             <li>
-              <span className="font-bold">Cloudflare R2:</span> For efficient
-              and secure file storage.
+              <span className="font-bold">Cloudflare pages:</span> For efficient
+              and secure web hosting.
             </li>
             <li>
               <span className="font-bold">OpenAI API:</span> For generating
