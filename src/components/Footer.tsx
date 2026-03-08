@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
           <div className="space-y-4">
             <div className="text-lg font-bold">Get in Touch</div>
-            <div className="text-gray-300">Atchyut Nagabhairava</div>
+            <div className="text-gray-300">Atchyut Nagabhairava · Hyderabad, India</div>
             <div className="text-gray-300">
               <a
                 href="mailto:email@atchyutn.com"
@@ -52,7 +52,7 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 sm:mb-0">
-            2023 Atchyut Nagabhairava. All rights reserved.
+            Atchyut Nagabhairava. All rights reserved.
           </div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

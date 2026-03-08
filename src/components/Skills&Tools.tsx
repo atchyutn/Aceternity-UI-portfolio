@@ -18,7 +18,7 @@ const SkillsTools = () => {
             Languages & Frameworks
           </h1>
           <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-            HTML, CSS, TailwindCSS, JavaScript, TypeScript, Ruby
+            JavaScript, TypeScript, Ruby, React, Next.js, Ruby on Rails
           </p>
         </div>
         {/* tools and platforms */}
@@ -27,7 +27,7 @@ const SkillsTools = () => {
             Tools and Platforms
           </h1>
           <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-            Git, VSCode, Github, Figma, Vercel, DigitalOcean, Prisma, Firebase
+            Appwrite, OpenAI APIs, REST APIs, Git, VPS deployment, AI Studio
           </p>
         </div>
       </div>

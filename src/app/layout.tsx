@@ -7,24 +7,24 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Atchyut Nagabhairava | Web & Mobile Development | AI Enthusiast",
+  title: "Atchyut Nagabhairava | Software Engineer | Full Stack Developer",
   description:
-    "Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps. Explore my portfolio of projects in Next.js, DynamoDB, Tailwind CSS, and more.",
+    "Software Engineer at TCS building enterprise applications, scalable SaaS platforms, and AI-enabled products with Next.js, React, Ruby on Rails, and OpenAI APIs.",
   keywords:
-    "web development, consultations, AI solutions, Atchyut Nagabhairava, build web apps, automation, emerging finance tools, Next.js, DynamoDB, Tailwind CSS",
+    "Atchyut Nagabhairava, Software Engineer, Full Stack Developer, Hyderabad, Next.js, React, Ruby on Rails, OpenAI API, SaaS architecture, enterprise applications",
   viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
-    title: "Atchyut Nagabhairava | Web Development & AI Solutions",
+    title: "Atchyut Nagabhairava | Software Engineer & AI Product Builder",
     description:
-      "Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps.",
+      "Portfolio of Atchyut Nagabhairava featuring enterprise engineering experience, AI-enabled product development, and scalable web platforms.",
     type: "website",
-    url: "https://atchyutn.com"
+    url: "https://atchyutn.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atchyut Nagabhairava | Web Development & AI Solutions",
+    title: "Atchyut Nagabhairava | Software Engineer & AI Product Builder",
     description:
-      "Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps."
+      "Enterprise software engineering, AI integrations, and product-focused full-stack development.",
   },
 };
 

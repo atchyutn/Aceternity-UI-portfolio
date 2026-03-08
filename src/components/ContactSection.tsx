@@ -18,8 +18,8 @@ export default function ContactSection() {
           Contact Me
         </h1>
         <p className="text-slate-400 p-4 text-base text-center">
-          I am always open to new projects, collaborations, or employment
-          <span className="inline-block">opportunities. Lets connect!</span>
+          I am open to software engineering roles, product collaborations, and technical discussions.
+          <span className="inline-block">Let&apos;s build reliable products together.</span>
         </p>
       </div>
       {/* contact form */}
@@ -67,20 +67,15 @@ export default function ContactSection() {
         <div className="sm:full sm:pt-8">
           <div className="pl-2 bg-slate-800 rounded-lg p-4 mb-4">
             <h1 className="text-slate-300 p-4 text-2xl font-bold sm:text-start text-center">
-              Support Me.
+              Work With Me
             </h1>
             <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-              Your support means the world to me! With your help, I will create
-              even more incredible
-              <span className="inline-block">
-                projects that inspire and uplift others. Together, we will turn
-                dreams into reality.
-              </span>
+              I contribute across the product lifecycle: requirement analysis, architecture, feature delivery, and production stabilization for scalable systems.
             </p>
             <div className="flex justify-center sm:justify-start sm:ml-5 pt-5">
               <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-6 py-2 rounded-full">
                 <Link href="/contact">
-                  <span>Support Me</span>
+                  <span>Discuss a Project</span>
                 </Link>
                 <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
               </button>
@@ -90,19 +85,15 @@ export default function ContactSection() {
           {/* hire me */}
           <div className="pl-2 bg-slate-800 rounded-lg p-4">
             <h1 className="text-slate-300 p-4 text-2xl font-bold sm:text-start text-center">
-              Hire Me.
+              Professional Profile
             </h1>
             <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-              If my work resonates with you, I am open to collaborations and
-              opportunities.
-              <span className="inline-block">
-                Feel free to reach out for potential projects!
-              </span>
+              Software Engineer at TCS with hands-on experience in enterprise applications, AI integration, and maintainable full-stack development.
             </p>
             <div className="flex justify-center sm:justify-start sm:ml-5 pt-5">
               <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-6 py-2 rounded-full">
                 <Link href="/contact">
-                  <span>Hire Me</span>
+                  <span>Get in Touch</span>
                 </Link>
                 <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
               </button>
