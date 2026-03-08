@@ -1,27 +1,27 @@
 const footerImg = [
   {
     title:"Github",
-    link:"https://github.com/Ganesh2116",
+    link:"https://github.com/atchyutn",
     src:"./github.svg",
     alt:"github",
   },
   {
     title:"LinkedIn",
-    link:"https://www.linkedin.com/in/ganesh-bharti-089b60228/",
+    link:"https://linkedin.com/in/atchyutn",
     src:"./linkedin.svg",
     alt:"linkedin",
   },
   {
-    title:"Instagram",
-    link:"https://www.instagram.com/ganesh.bharti.1234/",
-    src:"./instagram.svg",
-    alt:"instagram",
+    title:"Email",
+    link:"mailto:email@atchyutn.com",
+    src:"./mail.svg",
+    alt:"email",
   },
   {
-    title:"Twitter",
-    link:"/contact",
-    src:"./twitter.svg",
-    alt:"twitter",
+    title:"WhatsApp",
+    link:"https://wa.me/918143339495",
+    src:"./map-pin.svg",
+    alt:"whatsapp",
   },
 ]
 

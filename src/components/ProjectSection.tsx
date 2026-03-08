@@ -7,11 +7,10 @@ export default function ProjectSection() {
     <div className="max-w-5xl mx-auto px-8 pt-16">
       <div className="">
         <h1 className="text-5xl font-bold text-black dark:text-white text-start pl-2">
-          Projects
+          Featured Projects
         </h1>
         <p className="text-slate-400 p-4 text-base text-start">
-          Here’s some of my projects which showcases my skills in the field of
-          development.
+          Selected product builds that reflect my work in AI integration, enterprise workflows, and scalable SaaS architecture.
         </p>
       </div>
 

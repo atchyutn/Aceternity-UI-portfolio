@@ -12,26 +12,25 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          title: Atchyut Nagabhairava | Web & Mobile Development | AI
-          Enthusiast,
+          Atchyut Nagabhairava | Software Engineer | Full Stack Developer
         </title>
         <meta
           name="description"
-          content="Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps. Explore my portfolio of projects in Next.js, DynamoDB, Tailwind CSS, and more."
+          content="Software Engineer at TCS focused on enterprise applications, AI integration, and scalable full-stack product development."
         />
         <meta
           name="keywords"
-          content="web development, consultations, AI solutions, Atchyut Nagabhairava, build web apps, automation, emerging finance tools, Next.js, DynamoDB, Tailwind CSS"
+          content="Atchyut Nagabhairava, Software Engineer, Full Stack Developer, Hyderabad, Next.js, React, Ruby on Rails, OpenAI APIs, SaaS architecture"
         />
         <meta name="author" content="Atchyut Nagabhairava" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="og:title"
-          content="Atchyut Nagabhairava | Web Development & AI Solutions"
+          content="Atchyut Nagabhairava | Software Engineer & AI Product Builder"
         />
         <meta
           property="og:description"
-          content="Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps."
+          content="Portfolio showcasing enterprise software engineering, AI-powered product development, and scalable SaaS systems."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://atchyutn.com" />
@@ -42,11 +41,11 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Atchyut Nagabhairava | Web Development & AI Solutions"
+          content="Atchyut Nagabhairava | Software Engineer & AI Product Builder"
         />
         <meta
           name="twitter:description"
-          content="Atchyut Nagabhairava offers expert consultations and web development services, specializing in AI solutions, automating tasks, and helping businesses build innovative web apps."
+          content="Enterprise engineering, AI integrations, and product-focused full-stack development."
         />
         <meta
           name="twitter:image"

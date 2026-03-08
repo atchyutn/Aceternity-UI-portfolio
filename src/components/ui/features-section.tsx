@@ -1,40 +1,37 @@
 import { cn } from "@/utils/cn";
 import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
+  IconApi,
+  IconBrain,
+  IconBuildingSkyscraper,
+  IconRocket,
 } from "@tabler/icons-react";
 
 export function FeaturesSection() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Enterprise Product Engineering",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
+        "Designing and delivering stable features for enterprise-scale applications with maintainable architecture and predictable release quality.",
+      icon: <IconBuildingSkyscraper />,
     },
     {
-      title: "Ease of use",
+      title: "AI-Powered Workflows",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
+        "Integrating OpenAI APIs into production systems to build practical AI features, including automation flows and avatar-related flow handling.",
+      icon: <IconBrain />,
     },
     {
-      title: "Pricing like no other",
+      title: "Scalable API Integrations",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
+        "Building robust REST integrations and backend services for SaaS products with strong focus on reliability, observability, and clear contracts.",
+      icon: <IconApi />,
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
-      icon: <IconCloud />,
-    }
+      title: "Rapid MVP to Production",
+      description:
+        "Taking product ideas from MVP to deployable systems using Next.js, React, and Ruby on Rails with iterative delivery and user feedback loops.",
+      icon: <IconRocket />,
+    },
   ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto">

@@ -16,11 +16,7 @@ const page = () => {
           <div className="w-1/2">
             <p className="text-2xl font-bold">Description:</p>
             <p className="text-slate-400 text-lg pt-4">
-              Therapy Genius is an AI-driven platform designed to generate
-              personalized therapy activities for children with ADHD, Autism,
-              and similar conditions. It enhances therapy sessions by providing
-              tailored activities that cater to the unique needs of each child,
-              ensuring effective and engaging therapy experiences.
+              Therapy Genius is an AI-powered therapy center management platform built for child development and rehabilitation centers. It combines therapist scheduling, session tracking, progress monitoring, AI-assisted insights, and operational dashboards in one system.
             </p>
 
             <Link
@@ -49,8 +45,7 @@ const page = () => {
             <div>
               <p className="text-2xl font-bold pt-6">Technologies/Tools:</p>
               <p className="text-slate-400 sm:text-start text-lg text-center pt-4">
-                Next.js, TypeScript, DynamoDB, Cloudflare pages, Tailwind CSS,
-                OpenAI API.
+                Next.js, TypeScript, Tailwind CSS, REST APIs, OpenAI APIs, scalable cloud deployment.
               </p>
             </div>
           </div>
@@ -60,12 +55,7 @@ const page = () => {
         <div className="text-center px-4 sm:text-start sm:px-0">
           <p className="text-2xl font-bold">Introduction</p>
           <p className="text-slate-400 sm:text-start text-lg text-center pt-4">
-            Therapy Genius is a groundbreaking AI solution designed to assist
-            therapy centers in managing their operations and delivering
-            personalized therapy activities. By leveraging advanced AI
-            technology, Therapy Genius tailors activities to the individual
-            needs of children, enhancing the effectiveness and engagement of
-            therapy sessions.
+            The platform was designed to reduce administrative overhead while improving the quality of care delivery. Therapists and operations teams can manage scheduling, sessions, and progress in a centralized workflow with AI-assisted recommendations.
           </p>
         </div>
 
@@ -73,11 +63,7 @@ const page = () => {
         <div className="text-center px-4 sm:text-start sm:px-0 pb-20">
           <p className="text-2xl font-bold pt-6">Landing Page</p>
           <p className="text-slate-400 sm:text-start text-lg text-center pt-4">
-            Upon visiting the Therapy Genius landing page, users can explore the
-            features of the platform, understand its benefits, and get insights
-            into how it can enhance therapy sessions. The landing page offers a
-            seamless and informative experience, guiding users through the
-            functionalities and advantages of using Therapy Genius.
+            The product experience is focused on clarity and operational speed, helping teams quickly access sessions, therapist availability, and progress data while keeping parent and patient communication structured.
           </p>
         </div>
 
@@ -138,12 +124,7 @@ const page = () => {
         <div className="text-center px-4 sm:text-start sm:px-0 pb-16">
           <p className="text-2xl font-bold">Conclusion</p>
           <p className="text-slate-400 sm:text-start text-lg text-center pt-4">
-            Therapy Genius revolutionizes the way therapy sessions are conducted
-            by providing personalized, AI-generated activities. This platform
-            not only enhances the therapy experience for children but also
-            streamlines operations for therapy centers. Join Therapy Genius
-            today and transform your therapy sessions with innovative AI
-            solutions.
+            Therapy Genius demonstrates how AI can be integrated into healthcare operations in a practical, user-centered way. The system helps centers scale workflows while enabling therapists to focus more on child outcomes.
           </p>
         </div>
 
